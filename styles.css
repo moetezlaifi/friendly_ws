@@ -22,7 +22,14 @@ body {
   overflow: hidden;
   border-top: 5px solid #ff0000;   /* red accent */
   border-bottom: 5px solid #ff0000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.id-card:hover {
+  transform: scale(1.05) rotate(1deg);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.6);
+}
+
 
 /* ------------------------- */
 /* Left side: logo + info */
